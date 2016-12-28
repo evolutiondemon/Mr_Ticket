@@ -31,12 +31,20 @@ class TicketsController {
     }
 
     def listTickets() {
+        def model =   [ticketsInstanceList: Tickets.list(sort: params.sort, order: params.order)]
 
-        def show = Tickets.list()
-        [show: show]
+        model
 
     }
     def showTicket() {
+
+    }
+
+    def updateTicket(){
+        println params.id
+        def ticket = Tickets.get(params.id)
+
+        [ticket: ticket]
 
     }
 }

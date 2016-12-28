@@ -102,7 +102,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: validate
+            dbCreate: update
             url: jdbc:oracle:thin:@192.168.91.130:1521:xe
             driverClassName: oracle.jdbc.OracleDriver
             dialect: org.hibernate.dialect.Oracle10gDialect
