@@ -129,7 +129,7 @@ img {
 }
 
 .nav a {
-    color: #666666;
+    color: #ffffff;
     display: block;
     padding: 0.25em 0.7em;
     text-decoration: none;
@@ -139,11 +139,11 @@ img {
 }
 
 .nav a:active, .nav a:visited {
-    color: #666666;
+    color: #ffffff;
 }
 
 .nav a:focus, .nav a:hover {
-    background-color: #999999;
+    background-color: #777777;
     color: #ffffff;
     outline: none;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);

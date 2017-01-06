@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -13,10 +13,33 @@
     <g:layoutHead/>
 </head>
 <body>
-<div class="nav navbar navbar-static-top" style="background-color: #9c27b0" role="navigation">
-    <p style="font-size: large;color: #ffffff">MNIS Helpdesk</p>
 
-</div>
+<nav class="navbar navbar-light bg-faded" style="background-color: #9a109b">
+    <a class="navbar-brand" href="#" style="color: #ffffff">MNIS Helpdesk</a>
+    <ul class="nav navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </li>
+    </ul>
+    <form class="form-inline float-xs-right">
+        <input class="form-control" type="text" placeholder="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+</nav>
 
     <g:layoutBody/>
 
